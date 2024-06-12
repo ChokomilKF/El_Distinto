@@ -1,0 +1,22 @@
+.border {
+    border: 5px solid transparent;
+    border-radius: 10px;
+    animation: changeColor 2s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        border-color: #522F66;
+    }
+    25% {
+        border-color: #B279D3;
+    }
+    50% {
+        border-color: #674F75;
+    }
+    75% {
+        border-color: #CC94ED; 
+    }
+    100% {
+        border-color: #8130AF; 
+    }
